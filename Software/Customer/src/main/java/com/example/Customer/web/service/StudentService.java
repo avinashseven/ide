@@ -30,6 +30,6 @@ public class StudentService {
     }
     public List<StudentEntity> getbyStudentId()
     {
-        return studentRepository.findAllById(int id);
+        return studentRepository.findAllById(int id .);
     }
 }
